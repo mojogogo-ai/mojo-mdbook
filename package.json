@@ -1,0 +1,32 @@
+{
+  "name": "my-gitbook-project",
+  "version": "1.0.0",
+  "description": "我的GitBook项目",
+  "main": "README.md",
+  "scripts": {
+    "dev": "mdbook serve",
+    "build": "mdbook build",
+    "serve": "python3 -m http.server 3000 --directory book",
+    "serve-simple": "npx serve book",
+    "clean": "rm -rf book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/your-repo.git"
+  },
+  "keywords": [
+    "gitbook",
+    "documentation",
+    "markdown",
+    "知识库"
+  ],
+  "author": "GitBook作者",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/your-repo/issues"
+  },
+  "homepage": "https://github.com/your-username/your-repo#readme",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+} 

@@ -1,0 +1,331 @@
+/* 自定义样式 */
+.content {
+  font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 0.3em;
+}
+
+/* 代码块样式 */
+pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+/* 引用块样式 */
+blockquote {
+  border-left: 4px solid #3498db;
+  background-color: #f8f9fa;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+/* 表格样式 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 0.75em;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* 链接样式 */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Mojo Gogo 自定义样式 */
+
+/* 重置默认样式 */
+* {
+  box-sizing: border-box;
+}
+
+/* 自定义顶部导航栏 */
+.custom-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Logo和项目名容器 */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c1d1f !important;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.header-title:hover {
+  color: #1c1d1f;
+}
+
+/* 右侧导航链接 */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #6a6e77;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+  transform: translateY(-1px);
+}
+
+/* 搜索框样式 */
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #6a6e77;
+  font-size: 14px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #6a6e77;
+}
+
+.search-input:focus {
+  outline: none;
+  background: rgba(255,255,255,0.3);
+  border-color: #667eea;
+  width: 250px;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* 修复mdBook布局 - 调整侧边栏位置 */
+.sidebar {
+  top: 60px !important;
+  height: calc(100vh - 60px) !important;
+}
+
+/* 调整主内容区域 */
+.content {
+  /* margin-top: 60px !important; */
+  padding: 0 20px;
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+/* 调整页面包装器 */
+.page-wrapper {
+  margin-top: 60px !important;
+}
+
+/* 修复侧边栏滚动条位置 */
+.sidebar-scrollbox {
+  padding-top: 10px;
+}
+
+/* 确保侧边栏不被遮挡 */
+.chapter {
+  padding-top: 0 !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .custom-header {
+    padding: 0 15px;
+    height: 50px;
+  }
+  
+  .header-title {
+    font-size: 18px;
+  }
+  
+  .nav-links {
+    gap: 10px;
+  }
+  
+  .nav-links a {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  
+  .search-input {
+    width: 150px;
+    font-size: 12px;
+  }
+  
+  .search-input:focus {
+    width: 180px;
+  }
+  
+  /* 移动端调整 */
+  .sidebar {
+    top: 50px !important;
+    height: calc(100vh - 50px) !important;
+  }
+  
+  .content {
+    margin-top: 50px !important;
+    padding: 15px;
+  }
+  
+  .page-wrapper {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-right {
+    gap: 10px;
+  }
+  
+  .nav-links a {
+    padding: 4px 6px;
+  }
+  
+  .search-input {
+    width: 120px;
+  }
+}
+
+/* 美化滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+/* 美化内容样式 */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 链接样式 */
+a {
+  color: #667eea;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #764ba2;
+}
+
+/* 代码块样式 */
+pre {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5em;
+  overflow-x: auto;
+}
+
+code {
+  background: rgba(102, 126, 234, 0.1);
+  color: #764ba2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+/* 修复侧边栏章节标题样式 */
+.sidebar .chapter-item {
+  padding: 5px 15px !important;
+}
+
+.sidebar .chapter-item a {
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.sidebar .chapter-item a:hover {
+  color: #667eea !important;
+}
+
+/* 确保侧边栏展开按钮不被遮挡 */
+.sidebar-toggle {
+  top: 10px !important;
+} 
