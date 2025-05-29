@@ -105,11 +105,31 @@ a:hover {
   color: #1c1d1f;
 }
 
+/* 移动端（主侧边栏）菜单按钮样式 - Now always visible */
+.mobile-menu-toggle {
+  display: block; /* Always visible by default */
+  background: none;
+  border: none;
+  color: #6a6e77;
+  font-size: 18px; /* Adjusted for consistency */
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle:hover {
+  background: rgba(102, 126, 234, 0.1) !important;
+  color: #667eea !important;
+}
+
 /* 右侧导航链接 */
 .header-right {
   display: flex;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 .nav-links {
@@ -135,6 +155,67 @@ a:hover {
   background: rgba(102, 126, 234, 0.1);
   color: #667eea;
   transform: translateY(-1px);
+}
+
+/* 导航菜单按钮（小屏幕时显示） */
+.nav-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #6a6e77;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-menu-toggle:hover {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+}
+
+/* 下拉菜单 */
+.nav-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  z-index: 1001;
+  min-width: 180px;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.nav-dropdown.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.nav-dropdown a {
+  display: block;
+  padding: 12px 16px;
+  color: #6a6e77;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 1px solid #f5f5f5;
+  transition: all 0.3s ease;
+}
+
+.nav-dropdown a:last-child {
+  border-bottom: none;
+}
+
+.nav-dropdown a:hover {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
 }
 
 /* 搜索框样式 */
@@ -165,6 +246,24 @@ a:hover {
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
+/* 搜索图标按钮（小屏幕时显示） */
+.search-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #6a6e77;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.search-toggle:hover {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+}
+
 /* 修复mdBook布局 - 调整侧边栏位置 */
 .sidebar {
   top: 60px !important;
@@ -181,6 +280,34 @@ a:hover {
 /* 调整页面包装器 */
 .page-wrapper {
   margin-top: 60px !important;
+}
+
+/* 修复原始菜单栏的隐藏方式 - 确保侧边栏切换功能正常 */
+.menu-bar {
+  display: none !important;
+}
+
+/* 但保持侧边栏切换锚点和相关元素正常工作 */
+#sidebar-toggle-anchor {
+  display: block !important;
+}
+
+/* 确保侧边栏在小屏幕上的正确行为 */
+@media only screen and (max-width: 1080px) {
+  /* 在移动端确保侧边栏默认隐藏 */
+  html:not(.sidebar-visible) .sidebar {
+    transform: translateX(calc(0px - var(--sidebar-width, 300px) - var(--sidebar-resize-indicator-width, 8px)));
+  }
+  
+  /* 当侧边栏显示时 */
+  html.sidebar-visible .sidebar {
+    transform: translateX(0);
+  }
+  
+  /* 移动端页面内容不需要移动 */
+  html.sidebar-visible .page-wrapper {
+    transform: none;
+  }
 }
 
 /* 修复侧边栏滚动条位置 */
@@ -208,22 +335,22 @@ a:hover {
     font-size: 18px;
   }
   
+  /* 隐藏导航链接，显示菜单按钮 */
   .nav-links {
-    gap: 10px;
+    display: none !important;
   }
   
-  .nav-links a {
-    font-size: 12px;
-    padding: 6px 8px;
+  .nav-menu-toggle {
+    display: block !important;
   }
   
-  .search-input {
-    width: 150px;
-    font-size: 12px;
+  /* 隐藏搜索框，显示搜索图标 */
+  .search-container .search-input {
+    display: none !important;
   }
   
-  .search-input:focus {
-    width: 180px;
+  .search-toggle {
+    display: block !important;
   }
   
   /* 移动端调整 */
@@ -247,12 +374,17 @@ a:hover {
     gap: 10px;
   }
   
-  .nav-links a {
-    padding: 4px 6px;
+  .header-left {
+    gap: 8px;
   }
   
-  .search-input {
-    width: 120px;
+  .header-title {
+    font-size: 16px;
+  }
+  
+  .header-logo {
+    width: 32px;
+    height: 32px;
   }
 }
 

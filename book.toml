@@ -18,6 +18,9 @@ mathjax-support = true
 copy-fonts = true
 additional-css = ["theme/custom.css"]
 additional-js = ["theme/custom.js"]
+additional-head = """
+<link rel="icon" href="theme/favicon.png" type="image/png">
+"""
 
 [output.html.search]
 enable = true
