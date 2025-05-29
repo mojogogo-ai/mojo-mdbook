@@ -13,7 +13,7 @@ Welcome to the [Mojo GoGo DApp](https://www.mojogogo.ai/) — your launchpad for
 - Click **"Connect"** to link your Solana wallet.<br/>
 
 <div class="img-center">
-  <img src="../assets/user-guide/1.png" alt="图片描述">
+  <img src="../assets/user-guide/1.png" alt="">
 </div>
 
 
@@ -25,11 +25,11 @@ Welcome to the [Mojo GoGo DApp](https://www.mojogogo.ai/) — your launchpad for
 3️⃣ In the pop-up window, click "Launch." Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
 
 <div class="img-center">
-  <img src="../assets/user-guide/2.png" alt="图片描述">
+  <img src="../assets/user-guide/2.png" alt="">
 </div>
 
 <div class="img-center">
-  <img src="../assets/user-guide/3.png" alt="图片描述">
+  <img src="../assets/user-guide/3.png" alt="">
 </div>
 
 ### Step 3: Edit Your Bot
@@ -42,23 +42,5 @@ Click or drag to upload files. You can upload up to 5 files with a total size un
 [How to get Telegram Bot adress and token?](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
 
 <div class="img-center">
-  <img src="../assets/user-guide/4.png" alt="图片描述">
+  <img src="../assets/user-guide/4.png" alt="">
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
