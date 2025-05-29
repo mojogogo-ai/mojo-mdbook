@@ -146,25 +146,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (originalHeader) {
         originalHeader.style.display = 'none';
     }
-    
-    // 处理页面滚动时的效果
-    let lastScrollTop = 0;
-    window.addEventListener('scroll', function() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        if (scrollTop > lastScrollTop && scrollTop > 100) {
-            // 向下滚动，隐藏导航栏
-            customHeader.style.transform = 'translateY(-100%)';
-        } else {
-            // 向上滚动，显示导航栏
-            customHeader.style.transform = 'translateY(0)';
-        }
-        
-        lastScrollTop = scrollTop;
-    });
-    
-    // 添加平滑过渡效果
-    customHeader.style.transition = 'transform 0.3s ease-in-out';
 });
 
 // 主题切换功能（如果需要）
