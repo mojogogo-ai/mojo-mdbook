@@ -193,6 +193,10 @@ a:hover {
   padding-top: 0 !important;
 }
 
+.chapter li.part-title {
+  padding: 5px 15px !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .custom-header {
@@ -314,6 +318,11 @@ code {
 /* 修复侧边栏章节标题样式 */
 .sidebar .chapter-item {
   padding: 5px 15px !important;
+  margin: 0 !important;
+}
+
+.sidebar .chapter-item a strong {
+  display: none;
 }
 
 .sidebar .chapter-item a {
