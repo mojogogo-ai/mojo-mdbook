@@ -470,3 +470,7 @@ code {
 .sidebar-toggle {
   top: 10px !important;
 } 
+
+.img-center {
+  text-align: center;
+}
