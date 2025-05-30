@@ -27,7 +27,26 @@ You can claim your AI Bot tasks on the following page! ✨🎊🎉
   <img src="../assets/earn-points/4.png" alt="">
 </div>
 
+### 2️⃣ Daily Quests
 
+- Complete daily check-ins and other designated tasks<br/>
+- Tasks reset each day, allowing for continuous point accumulation
+
+<div class="img-center">
+  <img src="../assets/earn-points/5.png" alt="">
+</div>
+
+<div class="img-center">
+  <img src="../assets/earn-points/6.png" alt="">
+</div>
+
+### 3️⃣ Referral Rewards
+- Share your exclusive invitation link
+- Earn extra points when your friends register and complete tasks
+
+<div class="img-center">
+  <img src="../assets/earn-points/7.png" alt="">
+</div>
 
 
 
