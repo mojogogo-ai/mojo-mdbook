@@ -2,10 +2,6 @@
 _book/
 .grunt/
 
-# mdBook生成的文件
-book/
-*.orig
-
 # Node.js
 node_modules/
 npm-debug.log*
@@ -46,34 +42,16 @@ logs/
 .env.local
 .env.*.local
 
-# 构建输出
-dist/
-build/
-target/
-
 # 备份文件
 *.bak
 *.backup
 
+# 文档生成输出（可选择性添加）
+# *.pdf
+# *.epub
+# *.mobi
+
 # 压缩文件
 *.zip
 *.tar.gz
-*.rar
-
-# 文档生成
-*.pdf
-*.epub
-*.mobi
-
-# 编辑器
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 日志文件
-*.log
-
-# 临时文件
-*.tmp
-*.temp 
+*.rar 

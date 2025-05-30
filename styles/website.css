@@ -1,0 +1,170 @@
+/* Mojo Gogo GitBook Custom Styles */
+
+/* Main body styles */
+.book-body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Heading styles */
+.book-body h1, .book-body h2, .book-body h3, .book-body h4, .book-body h5, .book-body h6 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.book-body h1 {
+    /* color: #e74c3c;
+    border-bottom: 3px solid #e74c3c; */
+    padding-bottom: 0.5em;
+}
+
+.book-body h2 {
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.3em;
+}
+
+/* Link styles */
+.book-body a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.book-body a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Code block styles */
+.book-body pre {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 1em;
+    margin: 1em 0;
+    overflow-x: auto;
+}
+
+.book-body code {
+    background: #f1f3f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    /* color: #d63384; */
+}
+
+/* Blockquote styles */
+.book-body blockquote {
+    border-left: 4px solid #3498db;
+    background: #f8f9fa;
+    padding: 1em 1.5em;
+    margin: 1em 0;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Table styles */
+.book-body table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.book-body th, .book-body td {
+    border: 1px solid #dee2e6;
+    padding: 0.75em;
+    text-align: left;
+}
+
+.book-body th {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Sidebar styles */
+.book-summary {
+    background: #ffffff;
+    border-right: 1px solid #eee;
+}
+
+.book-summary ul.summary {
+    padding: 0;
+    margin: 0;
+}
+
+.book-summary li.chapter {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.book-summary li.chapter a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.book-summary li.chapter a:hover,
+.book-summary li.chapter.active > a {
+    background: #3498db;
+    color: white;
+}
+
+/* Top navigation styles */
+.book-header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+/* Custom button styles */
+.btn-custom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .book-body {
+        font-size: 14px;
+    }
+    
+    .book-body h1 {
+        font-size: 1.8em;
+    }
+    
+    .book-body h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+} 

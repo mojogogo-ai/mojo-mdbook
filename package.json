@@ -1,31 +1,35 @@
 {
-  "name": "my-gitbook-project",
+  "name": "mojo-gogo-gitbook",
   "version": "1.0.0",
-  "description": "我的GitBook项目",
+  "description": "Mojo Gogo Project Documentation - Built with GitBook",
   "main": "README.md",
   "scripts": {
-    "dev": "mdbook serve",
-    "build": "mdbook build",
-    "serve": "python3 -m http.server 3000 --directory book",
-    "serve-simple": "npx serve book",
-    "clean": "rm -rf book"
+    "dev": "honkit serve",
+    "build": "honkit build",
+    "serve": "python3 -m http.server 3000 --directory _book",
+    "serve-simple": "npx serve _book",
+    "clean": "rm -rf _book"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/your-repo.git"
+    "url": "git+https://github.com/your-username/mojo-gogo-gitbook.git"
   },
   "keywords": [
     "gitbook",
     "documentation",
     "markdown",
-    "知识库"
+    "knowledge-base",
+    "mojo",
+    "dapp",
+    "blockchain",
+    "defi"
   ],
-  "author": "GitBook作者",
+  "author": "Mojo Gogo Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your-username/your-repo/issues"
+    "url": "https://github.com/your-username/mojo-gogo-gitbook/issues"
   },
-  "homepage": "https://github.com/your-username/your-repo#readme",
+  "homepage": "https://github.com/your-username/mojo-gogo-gitbook#readme",
   "devDependencies": {
     "serve": "^14.0.0"
   }
