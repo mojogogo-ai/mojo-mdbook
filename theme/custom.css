@@ -478,3 +478,8 @@ code {
 .img-center {
   text-align: center;
 }
+
+.roam-download {
+  width: 138px;
+  height: 44px;
+}
