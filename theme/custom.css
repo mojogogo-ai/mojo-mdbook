@@ -457,6 +457,10 @@ code {
   display: none;
 }
 
+.sidebar .chapter-item div strong {
+  display: none;
+}
+
 .sidebar .chapter-item a {
   color: #333 !important;
   text-decoration: none;
