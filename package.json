@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/your-username/mojo-gogo-gitbook#readme",
   "devDependencies": {
+    "honkit": "^6.0.3",
     "serve": "^14.0.0"
   }
-} 
+}
