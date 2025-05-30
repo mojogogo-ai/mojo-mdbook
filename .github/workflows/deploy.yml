@@ -6,6 +6,9 @@ on:
       - gitbook
       # 如果有更多版本，添加它们
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
