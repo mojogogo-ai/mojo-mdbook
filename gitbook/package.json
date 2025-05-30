@@ -1,0 +1,36 @@
+{
+  "name": "mojo-gogo-gitbook",
+  "version": "1.0.0",
+  "description": "Mojo Gogo Project Documentation - Built with GitBook",
+  "main": "README.md",
+  "scripts": {
+    "dev": "honkit serve",
+    "build": "honkit build",
+    "serve": "python3 -m http.server 3000 --directory _book",
+    "serve-simple": "npx serve _book",
+    "clean": "rm -rf _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/mojo-gogo-gitbook.git"
+  },
+  "keywords": [
+    "gitbook",
+    "documentation",
+    "markdown",
+    "knowledge-base",
+    "mojo",
+    "dapp",
+    "blockchain",
+    "defi"
+  ],
+  "author": "Mojo Gogo Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/mojo-gogo-gitbook/issues"
+  },
+  "homepage": "https://github.com/your-username/mojo-gogo-gitbook#readme",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+} 
