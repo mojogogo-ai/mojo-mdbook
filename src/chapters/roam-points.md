@@ -11,13 +11,13 @@ A Global Decentralized Wireless Network Built for You by Leveraging DePIN, eSIM,
 </a>
 
 ## Earn Roam Points in Mojo GoGo
-1️⃣ After downloading the Roam app, enter the Mojo GoGo official website through the homepage banner.<br/>
+1️⃣ After downloading the Roam app, enter the Mojo GoGo official website through the homepage banner.
 
 <div class="img-center">
   <img src="../assets/roam-points/3.jpg" alt="">
 </div>
 
-2️⃣ Click **Get Started** to enter the events page, log in to your Mojo GoGo account, and start earn Roam Points.<br/>
+2️⃣ Click **Get Started** to enter the events page, log in to your Mojo GoGo account, and start earn Roam Points.
 
 <div class="img-center">
   <img src="../assets/roam-points/4.png" alt="">

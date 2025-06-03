@@ -479,6 +479,10 @@ code {
   text-align: center;
 }
 
+.img-mobile {
+  max-width: 375px;
+}
+
 .roam-download {
   width: 138px;
   height: 44px;

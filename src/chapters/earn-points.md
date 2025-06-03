@@ -29,7 +29,7 @@ You can claim your AI Bot tasks on the following page! ✨🎊🎉
 
 ### 2️⃣ Daily Quests
 
-- Complete daily check-ins and other designated tasks<br/>
+- Complete daily check-ins and other designated tasks
 - Tasks reset each day, allowing for continuous point accumulation
 
 <div class="img-center">
