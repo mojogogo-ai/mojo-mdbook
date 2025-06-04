@@ -1,4 +1,4 @@
-# Create Bot
+# Create Bot And Edit Bot
 
 ## Step 1: Choose Creation Method
 
