@@ -5,6 +5,7 @@
 1️⃣ Click **Create** in the homepage header or **Create Bot** in the banner.
 
 2️⃣ Choose your preferred creation method:
+
 - **Create with Form** - Fill out the form step by step
 - **Create with AI** - Build through conversation with our AI
 
@@ -70,6 +71,7 @@ Simply describe what kind of bot you want, and our AI will help you create it st
 ---
 
 ## Step 3: Launch Your Bot
+
 <div class="img-center">
   <img src="../assets/create-bot/4.png" alt="Create with AI">
 </div>
@@ -77,7 +79,7 @@ Simply describe what kind of bot you want, and our AI will help you create it st
 In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
 
 > 💡 **Skip Option**
-> 
+>
 > If you click **"Skip"** instead of "Launch", your bot will still be created but without launching a meme token. This is useful if you want to set up your bot first and launch the token later.
 
 ---
@@ -98,14 +100,18 @@ In the pop-up window, click **"Launch"**. Make sure your wallet has a small amou
 </div>
 
 ### Knowledge Sources
+
 Click or drag to upload files. You can upload up to 5 files with a total size under 100MB.We will train your AI bot using the files you upload.
 **Supported formats:** PDF, TXT, PPTX
 
 ### Advanced Functions
+
 If you want to use advanced features of the bot, please select "Advanced" and configure your Telegram & X bots.
 
 #### Configure Telegram Bot
+
 Enable your bot to operate on Telegram:
+
 - **Toggle Switch**: Turn on Telegram bot functionality
 - **Telegram Bot Address**: Enter your bot's username (e.g., @YourBotName)  
 - **Telegram Bot Token**: Enter your bot token from @BotFather
@@ -113,7 +119,9 @@ Enable your bot to operate on Telegram:
 Connect to Telegram bots and chat with this bot in Telegram App.
 
 #### Connect Bot Twitter Account  
+
 Configure your bot's Twitter/X integration:
+
 - **Toggle Switch**: Enable Twitter bot functionality
 - **Cost**: Each post, comment, or like will cost 10 points
 - **Daily Activity Limits**:
@@ -123,7 +131,9 @@ Configure your bot's Twitter/X integration:
   - **Number of topics Interaction per day**: Set daily topic interaction limit (0-∞)
 
 #### System Topics
+
 Pre-configured topic categories for your bot to engage with:
+
 - **Web3** - Web3 ecosystem discussions
 - **Meme Coins** - Meme cryptocurrency topics  
 - **Cryptos** - General cryptocurrency discussions
@@ -138,10 +148,11 @@ Pre-configured topic categories for your bot to engage with:
 - **Crypto News** - Latest cryptocurrency news
 
 #### Add Custom Tags
+
 Click **"Add"** to create custom tags that align with your bot's specific niche or interests.
 
 📖 **Resources:**
+
 - [How to get Telegram Bot address and token?](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
 
 > ⚠️ **Important:** Twitter functionality requires points for each action. Monitor your point balance to ensure continuous bot operation.
-

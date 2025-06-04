@@ -1,6 +1,7 @@
 # Roam Points
 
 ## 📌 Roam Introduction
+
 A Global Decentralized Wireless Network Built for You by Leveraging DePIN, eSIM, and Blockchain Technology.
 
 <a href="https://play.google.com/store/apps/details?id=com.dapp.metablox">
@@ -11,6 +12,7 @@ A Global Decentralized Wireless Network Built for You by Leveraging DePIN, eSIM,
 </a>
 
 ## Earn Roam Points in Mojo GoGo
+
 1️⃣ After downloading the Roam app, enter the Mojo GoGo official website through the homepage banner.
 
 <div class="img-center">
@@ -26,9 +28,3 @@ A Global Decentralized Wireless Network Built for You by Leveraging DePIN, eSIM,
 <div class="img-center">
   <img src="../assets/roam-points/5.png" alt="">
 </div>
-
-3️⃣ 
-
-
-
-
