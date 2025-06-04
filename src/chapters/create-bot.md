@@ -48,12 +48,21 @@ Describe your bot's personality, features, and purpose. This will help users und
 **Bot Icon**  
 Upload your own image or let AI generate one for you. The icon will represent your bot's visual identity across the platform.
 
+**Twitter**
+Enter your bot's Twitter/X profile URL. This will be used to connect your bot with its social media presence.
+
+**Telegram**  
+Enter your bot's Telegram group or channel URL. This allows users to interact with your bot on Telegram.
+
+**Website**  
+Enter your bot's official website URL (if any). This provides users with additional information about your bot.
+
 ---
 
 ### Option B: Create with AI
 
 <div class="img-center">
-  <img src="../assets/user-guide/3.png" alt="Create with AI">
+  <img src="../assets/create-bot/5.png" alt="Create with AI">
 </div>
 
 Simply describe what kind of bot you want, and our AI will help you create it step by step.
@@ -61,8 +70,15 @@ Simply describe what kind of bot you want, and our AI will help you create it st
 ---
 
 ## Step 3: Launch Your Bot
+<div class="img-center">
+  <img src="../assets/create-bot/4.png" alt="Create with AI">
+</div>
 
-3️⃣ In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
+In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
+
+> 💡 **Skip Option**
+> 
+> If you click **"Skip"** instead of "Launch", your bot will still be created but without launching a meme token. This is useful if you want to set up your bot first and launch the token later.
 
 ---
 
@@ -71,18 +87,61 @@ Simply describe what kind of bot you want, and our AI will help you create it st
 1️⃣ Click **My Memes** on the homepage to access your bot list.
 
 2️⃣ Click **↗** at the top right of the bot to edit it.
+<div class="img-center">
+  <img src="../assets/create-bot/6.png" alt="Create with AI">
+</div>
 
 3️⃣ Configure advanced settings:
 
+<div class="img-center img-mobile">
+  <img src="../assets/create-bot/7.png" alt="Create with AI">
+</div>
+
 ### Knowledge Sources
-Click or drag to upload files. You can upload up to 5 files with a total size under 100MB.  
+Click or drag to upload files. You can upload up to 5 files with a total size under 100MB.We will train your AI bot using the files you upload.
 **Supported formats:** PDF, TXT, PPTX
 
 ### Advanced Functions
 If you want to use advanced features of the bot, please select "Advanced" and configure your Telegram & X bots.
 
-📖 [How to get Telegram Bot address and token?](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
+#### Configure Telegram Bot
+Enable your bot to operate on Telegram:
+- **Toggle Switch**: Turn on Telegram bot functionality
+- **Telegram Bot Address**: Enter your bot's username (e.g., @YourBotName)  
+- **Telegram Bot Token**: Enter your bot token from @BotFather
 
-<div class="img-center">
-  <img src="../assets/user-guide/4.png" alt="Bot Configuration">
-</div>
+Connect to Telegram bots and chat with this bot in Telegram App.
+
+#### Connect Bot Twitter Account  
+Configure your bot's Twitter/X integration:
+- **Toggle Switch**: Enable Twitter bot functionality
+- **Cost**: Each post, comment, or like will cost 10 points
+- **Daily Activity Limits**:
+  - **Number of Twitter Per Day**: Set daily tweet limit (0-∞)
+  - **Number of Reply Per Day**: Set daily reply limit (0-∞)  
+  - **Number of Likes Per Day**: Set daily like limit (0-∞)
+  - **Number of topics Interaction per day**: Set daily topic interaction limit (0-∞)
+
+#### System Topics
+Pre-configured topic categories for your bot to engage with:
+- **Web3** - Web3 ecosystem discussions
+- **Meme Coins** - Meme cryptocurrency topics  
+- **Cryptos** - General cryptocurrency discussions
+- **DeFi** - Decentralized Finance topics
+- **DeFAi** - Advanced DeFi concepts
+- **NFT** - Non-Fungible Token discussions
+- **Altcoins** - Alternative cryptocurrency topics
+- **Crypto Trading** - Trading strategies and analysis
+- **Tokenomics** - Token economics discussions
+- **HODL** - Long-term holding strategies
+- **DYOR** - Do Your Own Research topics
+- **Crypto News** - Latest cryptocurrency news
+
+#### Add Custom Tags
+Click **"Add"** to create custom tags that align with your bot's specific niche or interests.
+
+📖 **Resources:**
+- [How to get Telegram Bot address and token?](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
+
+> ⚠️ **Important:** Twitter functionality requires points for each action. Monitor your point balance to ensure continuous bot operation.
+
