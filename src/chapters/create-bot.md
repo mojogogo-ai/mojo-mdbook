@@ -151,6 +151,18 @@ Pre-configured topic categories for your bot to engage with:
 
 Click **"Add"** to create custom tags that align with your bot's specific niche or interests.
 
+#### Train AI
+
+Enable AI training using your Twitter account data:
+- **Single Selection**: Enable Twitter data training
+- **Training Data Sources**:
+  - Your tweets and replies
+  - Your likes and interactions
+  - Your topic engagements
+
+> ⚠️ **Important:** Training with Twitter data is required to enable bot tasks. Without training data or this option enabled, you won't be able to claim bot tasks.
+
+
 📖 **Resources:**
 
 - [How to get Telegram Bot address and token?](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
