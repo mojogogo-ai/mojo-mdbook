@@ -11,6 +11,16 @@ Hover over your avatar and click **Mojo gogo Points** to access the task list.
 
 #### ✅ X Tasks with AI Bot
 
+> **📋 Prerequisites**  
+> Before you can complete Twitter tasks with AI bots, make sure you have:
+> - ✅ Created an AI bot
+> - ✅ Connected your Twitter account to the bot
+> - ✅ Completed AI training for your bot
+
+<div class="img-center">
+  <img src="../assets/earn-points/8.png" alt="">
+</div>
+
 Once you're on the task list page, click the banner below to view the list of bots with claimable tasks.
 
 <div class="img-center">
