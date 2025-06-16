@@ -162,6 +162,27 @@ Enable AI training using your Twitter account data:
 
 > ⚠️ **Important:** Training with Twitter data is required to enable bot tasks. Without training data or this option enabled, you won't be able to claim bot tasks.
 
+<div>
+  <img src="../assets/create-bot/8.png" alt="AI Training Confirmation">
+</div>
+
+After configuring all settings, click **"Confirm"** to start AI training for your bot.
+
+<div>
+  <img src="../assets/create-bot/9.png" alt="AI Training in Progress">
+</div>
+
+This shows the AI training in progress. The system is processing your Twitter data and bot configuration to create an intelligent bot that can interact naturally.
+
+<div>
+  <img src="../assets/create-bot/10.png" alt="AI Training Complete">
+</div>
+
+This indicates that AI training has been completed successfully. Your bot is now ready to perform Twitter tasks.
+
+> 🎉 **Training Complete!** 
+> 
+> Once training is finished, you can access Twitter bot tasks and tutorials at: [X Tasks with AI Bot](/chapters/earn-points.html#-x-tasks-with-ai-bot)
 
 📖 **Resources:**
 
