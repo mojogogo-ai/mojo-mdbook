@@ -154,11 +154,6 @@ Click **"Add"** to create custom tags that align with your bot's specific niche 
 #### Train AI
 
 Enable AI training using your Twitter account data:
-- **Single Selection**: Enable Twitter data training
-- **Training Data Sources**:
-  - Your tweets and replies
-  - Your likes and interactions
-  - Your topic engagements
 
 > ⚠️ **Important:** Training with Twitter data is required to enable bot tasks. Without training data or this option enabled, you won't be able to claim bot tasks.
 
@@ -172,7 +167,11 @@ After configuring all settings, click **"Confirm"** to start AI training for you
   <img src="../assets/create-bot/9.png" alt="AI Training in Progress">
 </div>
 
-This shows the AI training in progress. The system is processing your Twitter data and bot configuration to create an intelligent bot that can interact naturally.
+<div>
+  <img src="../assets/create-bot/11.png" alt="AI Training in Progress">
+</div>
+
+This status message appears at the top of your Bot Details page, showing that AI training is currently in progress. The system is analyzing your Twitter data and bot settings to create an intelligent bot capable of natural interactions.
 
 <div>
   <img src="../assets/create-bot/10.png" alt="AI Training Complete">
