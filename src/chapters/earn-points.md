@@ -16,10 +16,11 @@ Hover over your avatar and click **Mojo gogo Points** to access the task list.
 > - ✅ Created an AI bot
 > - ✅ Connected your Twitter account to the bot
 > - ✅ Completed AI training for your bot
+> <div class="img-center">
+>  <img src="../assets/earn-points/8.png" alt="">
+></div>
 
-<div class="img-center">
-  <img src="../assets/earn-points/8.png" alt="">
-</div>
+
 
 Once you're on the task list page, click the banner below to view the list of bots with claimable tasks.
 
@@ -52,7 +53,6 @@ Browse through available Twitter tasks. Each task shows:
   - 👍 **Like** - Like the specified tweet
   - 💬 **Comment** - Leave a comment on the tweet  
   - 🔄 **Retweet** - Share the tweet with your followers
-- **Points Reward**: Each task typically rewards **+10 pts**
 
 **Step 3: Select Actions**  
 For each task, you can choose which actions to perform:
