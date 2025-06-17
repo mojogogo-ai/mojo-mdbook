@@ -106,9 +106,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const links = [
         { text: 'Official Website', url: 'https://mojogogo.ai/' },
-        { text: 'X (Twitter)', url: '#' },
-        { text: 'Discord', url: '#' },
-        { text: 'Medium', url: '#' }
+        { text: 'X (Twitter)', url: 'https://x.com/MoJoGoGo_AI' },
+        // { text: 'Discord', url: '#' },
+        // { text: 'Medium', url: '#' }
     ];
     
     links.forEach(link => {
