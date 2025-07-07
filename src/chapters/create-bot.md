@@ -1,27 +1,58 @@
 # Create Bot And Edit Bot
 
-## Step 1: Choose Creation Method
+## Step 1: Start Creating
 
 1️⃣ Click **Create** in the homepage header or **Create Bot** in the banner.
 
-2️⃣ Choose your preferred creation method:
+---
+
+## Step 2: Choose Bot Type
+
+After clicking Create, you need to choose the type of bot you want to create:
+
+<div class="img-center img-mobile">
+  <img src="../assets/create-bot/0.png" alt="Choose Bot Type">
+</div>
+
+- **Task Bot** - Focused on performing specific tasks and functions
+- **Meme Bot** - Designed for meme token creation and social interactions
+
+> 👉 **Note:** 
+> - **Task Bot**: No wallet connection required
+> - **Meme Bot**: Wallet connection required for token creation and transactions
+
+---
+
+## Step 3: Choose Creation Method
+
+### For Meme Bot
+
+Choose your preferred creation method:
 
 - **Create with Form** - Fill out the form step by step
 - **Create with AI** - Build through conversation with our AI
 
-> 👉 **Note:** If you haven't connected your wallet yet, please do so before proceeding to the next step.
+### For Task Bot
+
+Task Bot only supports:
+
+- **Create with Form** - Fill out the form step by step
 
 ---
 
-## Step 2: Create Your Bot
+## Step 4: Create Your Bot
 
-### Option A: Create with Form
+### For Meme Bot
+
+If you selected **Meme Bot** in Step 1, follow the standard creation process:
+
+#### Option A: Create with Form
 
 <div class="img-center img-mobile">
   <img src="../assets/create-bot/1.png" alt="Create Bot Form">
 </div>
 
-#### Basic Information
+##### Basic Information
 
 **Bot Name**  
 Enter your bot's display name
@@ -58,9 +89,7 @@ Enter your bot's Telegram group or channel URL. This allows users to interact wi
 **Website**  
 Enter your bot's official website URL (if any). This provides users with additional information about your bot.
 
----
-
-### Option B: Create with AI
+#### Option B: Create with AI
 
 <div class="img-center">
   <img src="../assets/create-bot/5.png" alt="Create with AI">
@@ -68,12 +97,43 @@ Enter your bot's official website URL (if any). This provides users with additio
 
 Simply describe what kind of bot you want, and our AI will help you create it step by step.
 
+### For Task Bot
+
+If you selected **Task Bot** in Step 1, follow this specialized creation process:
+
+<div class="img-center img-mobile">
+  <img src="../assets/create-bot/12.png" alt="Create Task Bot">
+</div>
+
+> ⚠️ **Important for Task Bot:** 
+> 
+> To claim and execute bot tasks, you **MUST**:
+> 1. **Connect your Twitter/X account** for authorization
+> 2. **AI training will start automatically** after bot creation (no manual setup needed)
+> 3. **Wait for training to finish** before accessing bot tasks
+> 
+> Without Twitter authorization and completed training, you won't be able to claim any bot tasks!
+
 ---
 
-## Step 3: Launch Your Bot
+## Step 5: Bot Creation Complete
+
+### For Task Bot
+
+Task Bot creation is complete once you fill out the form. You'll see the success screen:
 
 <div class="img-center">
-  <img src="../assets/create-bot/4.png" alt="Create with AI">
+  <img src="../assets/create-bot/13.png" alt="Task Bot Creation Complete">
+</div>
+
+Your Task Bot is now ready! AI training has automatically started in the background. Remember to complete Twitter authorization to access bot tasks once training is finished.
+
+### For Meme Bot
+
+After filling out the form, Meme Bot requires an additional launch step:
+
+<div class="img-center">
+  <img src="../assets/create-bot/14.png" alt="Meme Bot Creation Complete">
 </div>
 
 In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
@@ -84,7 +144,7 @@ In the pop-up window, click **"Launch"**. Make sure your wallet has a small amou
 
 ---
 
-## Step 4: Edit Your Bot
+## Step 6: Edit Your Bot
 
 1️⃣ Click **My Memes** on the homepage to access your bot list.
 
@@ -93,7 +153,16 @@ In the pop-up window, click **"Launch"**. Make sure your wallet has a small amou
   <img src="../assets/create-bot/6.png" alt="Create with AI">
 </div>
 
-3️⃣ Configure advanced settings:
+### For Task Bot
+
+Task Bot has limited editing options. You can only modify:
+
+- **Bot Name** - Change your bot's display name
+- **Bot Icon** - Upload a new image or generate one with AI
+
+### For Meme Bot
+
+Meme Bot supports full editing capabilities. Configure advanced settings:
 
 <div class="img-center img-mobile">
   <img src="../assets/create-bot/7.png" alt="Create with AI">
@@ -153,6 +222,13 @@ Click **"Add"** to create custom tags that align with your bot's specific niche 
 
 #### Train AI
 
+> 📋 **Training Process Difference:**
+> 
+> - **Meme Bot**: Manual training - You need to manually enable AI training using your Twitter account data
+> - **Task Bot**: Automatic training - AI training starts automatically when you create the bot (no manual setup required)
+
+**For Meme Bot Only:**
+
 Enable AI training using your Twitter account data:
 
 > ⚠️ **Important:** Training with Twitter data is required to enable bot tasks. Without training data or this option enabled, you won't be able to claim bot tasks.
@@ -161,7 +237,7 @@ Enable AI training using your Twitter account data:
   <img src="../assets/create-bot/8.png" alt="AI Training Confirmation">
 </div>
 
-After configuring all settings, click **"Confirm"** to start AI training for your bot.
+**For Meme Bot:** After configuring all settings, click **"Confirm"** to start AI training for your bot.
 
 <div>
   <img src="../assets/create-bot/9.png" alt="AI Training in Progress">
@@ -172,6 +248,8 @@ After configuring all settings, click **"Confirm"** to start AI training for you
 </div>
 
 This status message appears at the top of your Bot Details page, showing that AI training is currently in progress. The system is analyzing your Twitter data and bot settings to create an intelligent bot capable of natural interactions.
+
+**For both Meme Bot and Task Bot:** Once training is complete, you'll see:
 
 <div>
   <img src="../assets/create-bot/10.png" alt="AI Training Complete">
