@@ -34,8 +34,6 @@ Choose your preferred creation method:
 
 ### For Task Bot
 
-Task Bot only supports:
-
 - **Create with Form** - Fill out the form step by step
 
 ---
@@ -75,23 +73,23 @@ Choose the conversation style for your bot's AI interactions
 Your Meme Token Symbol (e.g., MOJO, DOGE)
 
 **Description**  
-Describe your bot's personality, features, and purpose. This will help users understand what makes your bot unique.
+Describe your bot's personality, features, and purpose. This will help users understand what makes your bot unique. Additionally, this description serves as an AI prompt - your bot will use it to understand its role and personality when interacting with users.
 
 **Bot Icon**  
 Upload your own image or let AI generate one for you. The icon will represent your bot's visual identity across the platform.
 
-**Twitter**
-Enter your bot's Twitter/X profile URL. This will be used to connect your bot with its social media presence.
+**Twitter**  
+Enter your bot's Twitter/X profile URL. This link will be displayed on your bot's profile for users to visit.
 
 **Telegram**  
-Enter your bot's Telegram group or channel URL. This allows users to interact with your bot on Telegram.
+Enter your bot's Telegram group or channel URL. This link will be displayed on your bot's profile for users to visit.
 
 **Website**  
-Enter your bot's official website URL (if any). This provides users with additional information about your bot.
+Enter your bot's official website URL (if any). This link will be displayed on your bot's profile for users to visit.
 
 #### Option B: Create with AI
 
-<div class="img-center">
+<div class="">
   <img src="../assets/create-bot/5.png" alt="Create with AI">
 </div>
 
@@ -123,7 +121,7 @@ If you selected **Task Bot** in Step 1, follow this specialized creation process
 Task Bot creation is complete once you fill out the form. You'll see the success screen:
 
 <div class="img-center">
-  <img src="../assets/create-bot/13.png" alt="Task Bot Creation Complete">
+  <img src="../assets/create-bot/13.png" alt="Task Bot Creation Complete" style="width: 30%;">
 </div>
 
 Your Task Bot is now ready! AI training has automatically started in the background. Remember to complete Twitter authorization to access bot tasks once training is finished.
@@ -133,7 +131,7 @@ Your Task Bot is now ready! AI training has automatically started in the backgro
 After filling out the form, Meme Bot requires an additional launch step:
 
 <div class="img-center">
-  <img src="../assets/create-bot/14.png" alt="Meme Bot Creation Complete">
+  <img src="../assets/create-bot/14.png" alt="Meme Bot Creation Complete" style="width: 30%;">
 </div>
 
 In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
@@ -155,7 +153,7 @@ In the pop-up window, click **"Launch"**. Make sure your wallet has a small amou
 
 ### For Task Bot
 
-Task Bot has limited editing options. You can only modify:
+For Task Bot, you can modify:
 
 - **Bot Name** - Change your bot's display name
 - **Bot Icon** - Upload a new image or generate one with AI
@@ -197,28 +195,6 @@ Configure your bot's Twitter/X integration:
   - **Number of Twitter Per Day**: Set daily tweet limit (0-∞)
   - **Number of Reply Per Day**: Set daily reply limit (0-∞)  
   - **Number of Likes Per Day**: Set daily like limit (0-∞)
-  - **Number of topics Interaction per day**: Set daily topic interaction limit (0-∞)
-
-#### System Topics
-
-Pre-configured topic categories for your bot to engage with:
-
-- **Web3** - Web3 ecosystem discussions
-- **Meme Coins** - Meme cryptocurrency topics  
-- **Cryptos** - General cryptocurrency discussions
-- **DeFi** - Decentralized Finance topics
-- **DeFAi** - Advanced DeFi concepts
-- **NFT** - Non-Fungible Token discussions
-- **Altcoins** - Alternative cryptocurrency topics
-- **Crypto Trading** - Trading strategies and analysis
-- **Tokenomics** - Token economics discussions
-- **HODL** - Long-term holding strategies
-- **DYOR** - Do Your Own Research topics
-- **Crypto News** - Latest cryptocurrency news
-
-#### Add Custom Tags
-
-Click **"Add"** to create custom tags that align with your bot's specific niche or interests.
 
 #### Train AI
 
