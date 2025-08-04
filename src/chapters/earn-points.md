@@ -1,5 +1,18 @@
 # Earn Points
 
+<style>
+.earn-img {
+  text-align: center !important;
+}
+.earn-img img {
+  max-width: 60% !important;
+  height: auto !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+</style>
+
 ## 📌 Complete Tasks and Earn Points
 
 Hover over your avatar and click **Mojo gogo Points** to access the task list.
@@ -67,7 +80,37 @@ For each task, you can choose which actions to perform:
 - **Community Events** - Participate in bounty and certification programs
 - **Ambassador Programs** - Help spread awareness about platform initiatives
 
-**Step 4: Execute Tasks**  
+#### 💬 Comment Task Process
+
+When you select comment-related tasks, you'll go through a special review process:
+
+**Step 1: Review Comments**  
+After selecting comment tasks, you'll be prompted to review the comments that will be posted.
+
+<div class="img-center earn-img">
+  <img src="../assets/earn-points/comment-1.png" alt="">
+</div>
+
+**Step 2: AI Generates Comments**  
+The AI will generate comments for your selected tasks. If you've claimed multiple comment tasks, the generation process may take some time.
+
+<div class="img-center earn-img">
+  <img src="../assets/earn-points/comment-2.png" alt="">
+</div>
+
+> ⏱️ **Note:** If you've claimed multiple comment tasks, AI comment generation may take some time. Please be patient.
+
+**Step 3: Polish Comments (Optional)**  
+You can click **"AI Polish"** to regenerate comments with new prompts until you're satisfied with the results.
+
+<div class="img-center earn-img">
+  <img src="../assets/earn-points/comment-3.png" alt="">
+</div>
+
+**Step 4: Accept All Comments**  
+You must accept all generated comments before you can proceed to execute the tasks.
+
+**Step 5: Execute Tasks**  
 
 - Review your selections at the bottom (shows total tasks and expected points)
 - Click **"Execute"** to start performing the selected tasks
