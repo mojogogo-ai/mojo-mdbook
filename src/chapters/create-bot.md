@@ -15,17 +15,17 @@ After clicking Create, you need to choose the type of bot you want to create:
 </div>
 
 - **Task Bot** - Focused on performing specific tasks and functions
-- **Meme Bot** - Designed for meme token creation and social interactions
+- **Marketing Bot** - Designed for meme token creation and social interactions
 
 > 👉 **Note:** 
 > - **Task Bot**: No wallet connection required
-> - **Meme Bot**: Wallet connection required for token creation and transactions
+> - **Marketing Bot**: Wallet connection required for token creation and transactions
 
 ---
 
 ## Step 3: Choose Creation Method
 
-### For Meme Bot
+### For Marketing Bot
 
 Choose your preferred creation method:
 
@@ -40,9 +40,9 @@ Choose your preferred creation method:
 
 ## Step 4: Create Your Bot
 
-### For Meme Bot
+### For Marketing Bot
 
-If you selected **Meme Bot** in Step 1, follow the standard creation process:
+If you selected **Marketing Bot** in Step 1, follow the standard creation process:
 
 #### Option A: Create with Form
 
@@ -126,12 +126,12 @@ Task Bot creation is complete once you fill out the form. You'll see the success
 
 Your Task Bot is now ready! AI training has automatically started in the background. Remember to complete Twitter authorization to access bot tasks once training is finished.
 
-### For Meme Bot
+### For Marketing Bot
 
-After filling out the form, Meme Bot requires an additional launch step:
+After filling out the form, Marketing Bot requires an additional launch step:
 
 <div class="img-center">
-  <img src="../assets/create-bot/14.png" alt="Meme Bot Creation Complete" style="width: 30%;">
+  <img src="../assets/create-bot/14.png" alt="Marketing Bot Creation Complete" style="width: 30%;">
 </div>
 
 In the pop-up window, click **"Launch"**. Make sure your wallet has a small amount of SOL to complete the signature transaction. Once the process is complete, your bot will be successfully created—and a meme token will be launched at the same time! 🚀
@@ -158,9 +158,9 @@ For Task Bot, you can modify:
 - **Bot Name** - Change your bot's display name
 - **Bot Icon** - Upload a new image or generate one with AI
 
-### For Meme Bot
+### For Marketing Bot
 
-Meme Bot supports full editing capabilities. Configure advanced settings:
+Marketing Bot supports full editing capabilities. Configure advanced settings:
 
 <div class="img-center img-mobile">
   <img src="../assets/create-bot/7.png" alt="Create with AI">
@@ -192,7 +192,7 @@ Configure your bot's Twitter/X integration:
 - **Toggle Switch**: Enable Twitter bot functionality
 - **Cost**: Each post, comment, or like will cost 10 points
 - **Daily Activity Limits**:
-  - **Number of Twitter Per Day**: Set daily tweet limit (0-∞)
+  - **Number of Tweets Per Day**: Set daily tweet limit (0-∞)
   - **Number of Reply Per Day**: Set daily reply limit (0-∞)  
   - **Number of Likes Per Day**: Set daily like limit (0-∞)
 
@@ -200,10 +200,10 @@ Configure your bot's Twitter/X integration:
 
 > 📋 **Training Process Difference:**
 > 
-> - **Meme Bot**: Manual training - You need to manually enable AI training using your Twitter account data
+> - **Marketing Bot**: Manual training - You need to manually enable AI training using your Twitter account data
 > - **Task Bot**: Automatic training - AI training starts automatically when you create the bot (no manual setup required)
 
-**For Meme Bot Only:**
+**For Marketing Bot Only:**
 
 Enable AI training using your Twitter account data:
 
@@ -213,7 +213,7 @@ Enable AI training using your Twitter account data:
   <img src="../assets/create-bot/8.png" alt="AI Training Confirmation">
 </div>
 
-**For Meme Bot:** After configuring all settings, click **"Confirm"** to start AI training for your bot.
+**For Marketing Bot:** After configuring all settings, click **"Confirm"** to start AI training for your bot.
 
 <div>
   <img src="../assets/create-bot/9.png" alt="AI Training in Progress">
@@ -225,7 +225,7 @@ Enable AI training using your Twitter account data:
 
 This status message appears at the top of your Bot Details page, showing that AI training is currently in progress. The system is analyzing your Twitter data and bot settings to create an intelligent bot capable of natural interactions.
 
-**For both Meme Bot and Task Bot:** Once training is complete, you'll see:
+**For both Marketing Bot and Task Bot:** Once training is complete, you'll see:
 
 <div>
   <img src="../assets/create-bot/10.png" alt="AI Training Complete">
