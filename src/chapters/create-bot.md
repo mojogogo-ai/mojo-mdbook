@@ -89,6 +89,10 @@ Enter your bot's official website URL (if any). This link will be displayed on y
 
 #### Option B: Create with AI
 
+> ⚠️ **Temporarily Paused**
+> 
+> This option is currently unavailable. Please use Option A (Manual Creation) instead.
+
 <div class="">
   <img src="../assets/create-bot/5.png" alt="Create with AI">
 </div>

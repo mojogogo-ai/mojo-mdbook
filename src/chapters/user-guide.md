@@ -13,7 +13,6 @@ Welcome to the [Mojo GoGo DApp](https://mojogogo.ai/) — your launchpad for mem
 👉[https://mojogogo.ai/](https://mojogogo.ai/)
 
 - Click **"Login"** to sign in with your email or Google account.
-- Click **"Connect"** to link your Solana wallet.
 
 <div class="img-center img-mobile">
   <img src="../assets/user-guide/1.png" alt="">

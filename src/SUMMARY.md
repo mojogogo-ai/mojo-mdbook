@@ -8,6 +8,7 @@
 - [Roam Points](chapters/roam-points.md)
 - [Create And Edit Bot](chapters/create-bot.md)
 - [Earn Points](chapters/earn-points.md)
+<!-- - [PWA](chapters/pwa.md) -->
 <!-- - [Roam Points](chapters/roam-points.md) -->
 
 <!-- # LINKS
